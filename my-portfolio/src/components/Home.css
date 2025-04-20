@@ -5,8 +5,15 @@
   background: #f8f9fa;
 }
 
-.hero h1 {
-  font-size: 3rem;
+.hero-text {
+  flex: 1;
+  padding-right: 0px;
+  margin-top: 0px;
+}
+
+
+h1 {
+  font-size: 6rem;
   margin-bottom: 10px;
   margin-top: 15px;
   text-align: top;
@@ -18,16 +25,19 @@
 }
 
 .hero-img {
-  width: 200px;
-  height: 200px;
-  border-radius: 100%;
+  width: 300px;
+  height: 500px;
   object-fit: cover;
-  margin-bottom: 0px;
+  margin-bottom: -350px;
   border: 1px solid #00bcd4;
+  padding-left: 0px;
+  border-radius: 20px;
+
 }
 
 .hero-img-wrapper {
-  flex: 1;
+  flex: 3;
   display: flex;
   justify-content: flex-end;
+  position: relative;
 }
