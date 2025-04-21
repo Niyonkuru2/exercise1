@@ -9,14 +9,16 @@
   flex: 1;
   padding-right: 0px;
   margin-top: 0px;
+  margin-left: 30px;
 }
 
 
 h1 {
-  font-size: 6rem;
+  font-size: 3rem;
   margin-bottom: 10px;
   margin-top: 15px;
   text-align: top;
+  margin-left: 30px;
 }
 
 .hero h2 {
@@ -26,18 +28,56 @@ h1 {
 
 .hero-img {
   width: 300px;
-  height: 500px;
+  height: 400px;
   object-fit: cover;
-  margin-bottom: -350px;
+  margin-bottom: -300px;
   border: 1px solid #00bcd4;
   padding-left: 0px;
   border-radius: 20px;
-
+  position: fixed;
 }
 
 .hero-img-wrapper {
   flex: 3;
+  position:left;
+  margin-left: 1130px;
+  padding-top: 6%;
+}
+
+.skills{
+  margin-left: 1450px;
+  padding-bottom: 40px;
+}
+
+.save{
+  background-color: black;
+  color: #f8f9fa;
+  font-size: medium;
+  max-width: 1500px;
+  margin: auto;
+  max-height: 300px;
+}
+
+.saved{
+  margin-left: 990px;
+  padding-bottom: 0px;
+}
+.saver{
+margin-left: 30px;
+}
+
+.experience {
+  padding: 10px;
+  font-family: Arial, sans-serif;
   display: flex;
-  justify-content: flex-end;
-  position: relative;
+  gap: 30px;
+  margin-left: 30px;
+}
+.number {
+  font-size: 1.5em;
+}
+
+sup {
+  font-size: 0.5em;
+  vertical-align: super;
 }
