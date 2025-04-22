@@ -1,16 +1,46 @@
 /* src/components/Service.css */
 .service {
-        padding: 60px 20px;
-        background-color: #fff;
+        padding-left: 600px;
+        padding-top: 230px;
       }
-      
-      .about h2 {
-        font-size: 2rem;
-        margin-bottom: 20px;
+      .service h3{
+        padding-left: 100px;
       }
-      
-      .about p {
-        font-size: 1.1rem;
-        color: #444;
+      .images{
+        display: flex;
+        gap: 40px;
+        padding-left: 100px;
+}
+      .card {
+        width: 160px;
+        height: 220px;
+        padding: 56px;
+        border: 3px solid #ccc;
+        border-radius: 12px;
+        font-family: Arial, sans-serif;
+      }
+      .icon {
+        background-color: #00c853;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px;
+        margin-bottom: 12px;
+      }
+      .icon img {
+        width: 24px;
+        height: 24px;
+      }
+      .card h3 {
+        margin: 0;
+        font-weight: bold;
+        color: #333;
+        font-size: 25px;
+      }
+      .card p {
+        color: #666;
+        font-size: 20px;
       }
       
