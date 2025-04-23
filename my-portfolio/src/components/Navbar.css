@@ -35,6 +35,8 @@
         list-style: none;
         display: flex;
         gap: 25px;
+        position: static;
+        margin-left: 500px;
       }
       
       .nav-links a {
@@ -46,5 +48,17 @@
       
       .nav-links a:hover {
         color: hsl(76, 94%, 49%);
+      }
+
+      .nav-links p{
+        background-color: #0c0202;
+        color:white;
+        margin-left: 440px;
+        text-align: center;
+        border-radius: 35px;
+        width: 120px;
+        height: 30px;
+        margin-top: 0px;
+        padding-top: 5px;
       }
       

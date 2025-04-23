@@ -20,7 +20,7 @@ const Home = () => {
         noble, and respected. It's a name that conveys
         strength and importance.</p>
         </div>
-        <ul className="skills">
+<ul className="skills">
   <li>💻</li>
   <li>⚛️</li>
   <li>🎨</li>
@@ -32,9 +32,9 @@ const Home = () => {
 
 <section className="save">
 <h2 className='saver'>
-  I want you to know the adavntage empowering <br />
-  your digital presence with web design&user focussed <br />
-  experience in this word of developing.
+  I want you to know the advantage empowering <br />
+  your digital presence with web design & user focussed <br />
+  experience in this world of developing.
 </h2>
 <p className="saved">
 These opportunities are perfect for university students <br />
